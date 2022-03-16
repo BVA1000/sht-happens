@@ -17,17 +17,27 @@ header {
   padding: 1rem;
 }
 
-header a {
+header #sht-happens {
   color: #ffffff;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-weight: 200;
   font-size: 60px;
-
   text-decoration: none;
 }
 
+.site-container {
+  min-height: 100vh;
+}
+
 main {
-  padding: 1rem;
+  flex: 1;
+}
+
+footer {
+  color: #ffffff;
+  /*font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .products {
