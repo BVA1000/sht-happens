@@ -1,6 +1,7 @@
 const data = {
   products: [
     {
+      _id: '1',
       name: 'Herald SHT T-Shirt',
       slug: 'herald-sht-t-shirt',
       category: 'T-Shirts',
@@ -13,6 +14,7 @@ const data = {
         'The Herald SHT T-Shirt is one of our first classic and legendary designs.',
     },
     {
+      _id: '2',
       name: 'Bold SHT T-Shirt',
       slug: 'bold-sht-t-shirt',
       category: 'T-Shirts',
@@ -25,6 +27,7 @@ const data = {
         'The Bold SHT T-Shirt is another classic design with a bold look.',
     },
     {
+      _id: '3',
       name: 'Flywheel SHT T-Shirt',
       slug: 'flywheel-sht-t-shirt',
       category: 'T-Shirts',

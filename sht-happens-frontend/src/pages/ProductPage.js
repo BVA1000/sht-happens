@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { useEffect, useReducer } from 'react';
+import { useContext, useEffect, useReducer } from 'react';
 import Badge from 'react-bootstrap/Badge';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
@@ -12,6 +12,7 @@ import { Helmet } from 'react-helmet-async';
 import LoadingBox from '../components/LoadingBox';
 import MessageBox from '../components/MessageBox';
 import { getError } from '../utils';
+import { Store } from '../Store';
 
 const reducer = (state, action) => {
   switch (action.type) {
@@ -49,6 +50,22 @@ function ProductPage() {
     fetchData();
   }, [slug]);
 
+  const { state, dispatch: cxtDispatch } = useContext(Store);
+  const { cart } = state;
+  const addToCartHandler = async () => {
+    const existItem = cart.cartItems.find((x) => x._id === product._id);
+    const quantity = existItem ? existItem.quantity + 1 : 1;
+    const { data } = await axios.get(`/api/products/${product._id}`);
+    if (data.countInStock < quantity) {
+      window.alert('Sorry. Product is out of stock');
+      return;
+    }
+    cxtDispatch({
+      type: 'CART_ADD_ITEM',
+      payload: { ...product, quantity },
+    });
+  };
+
   return loading ? (
     <LoadingBox />
   ) : error ? (
@@ -65,10 +82,10 @@ function ProductPage() {
         </Col>
         <Col md={3}>
           <ListGroup variant="flush">
-            <Helmet>
-              <title>{product.name}</title>
-            </Helmet>
             <ListGroup.Item>
+              <Helmet>
+                <title>{product.name}</title>
+              </Helmet>
               <h1>{product.name}</h1>
             </ListGroup.Item>
             <ListGroup.Item>
@@ -110,7 +127,9 @@ function ProductPage() {
                 {product.quantityInStock > 0 && (
                   <ListGroup.Item>
                     <div className="d-grid">
-                      <Button variant="primary">Add To Cart</Button>
+                      <Button onClick={addToCartHandler} variant="primary">
+                        Add To Cart
+                      </Button>
                     </div>
                   </ListGroup.Item>
                 )}
