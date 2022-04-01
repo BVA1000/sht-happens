@@ -39,6 +39,18 @@ const data = {
       description:
         'The Flywheel SHT T-Shirt is a fun design with a unique pattern.',
     },
+    {
+      _id: '4',
+      name: 'Splash SHT T-Shirt',
+      slug: 'splash-sht-t-shirt',
+      category: 'T-Shirts',
+      image: '/images/splash-black&red.png',
+      price: 29,
+      quantityInStock: 1050,
+      rating: 5.0,
+      reviews: 25,
+      description: 'The Splash SHT T-Shirt is a splash of SHT on a t-shirt.',
+    },
   ],
 };
 
