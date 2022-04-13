@@ -7,7 +7,7 @@ const data = {
       category: 'T-Shirts',
       image: '/images/herald-red.png',
       price: 29,
-      quantityInStock: 1050,
+      quantityInStock: 100,
       rating: 5.0,
       reviews: 25,
       description:
@@ -20,7 +20,7 @@ const data = {
       category: 'T-Shirts',
       image: '/images/bold-black&white.png',
       price: 29,
-      quantityInStock: 1050,
+      quantityInStock: 50,
       rating: 5.0,
       reviews: 25,
       description:
@@ -33,7 +33,7 @@ const data = {
       category: 'T-Shirts',
       image: '/images/flywheel-white&black.png',
       price: 29,
-      quantityInStock: 1050,
+      quantityInStock: 100,
       rating: 5.0,
       reviews: 25,
       description:
@@ -46,7 +46,7 @@ const data = {
       category: 'T-Shirts',
       image: '/images/splash-black&red.png',
       price: 29,
-      quantityInStock: 1050,
+      quantityInStock: 50,
       rating: 5.0,
       reviews: 25,
       description: 'The Splash SHT T-Shirt is a splash of SHT on a t-shirt.',
