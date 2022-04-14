@@ -11,7 +11,7 @@ const data = {
       rating: 5.0,
       reviews: 25,
       description:
-        'The Herald SHT T-Shirt is one of our first classic and legendary designs.',
+        'The Herald T-Shirt is one of our first classic and legendary designs!',
     },
     {
       _id: '2',
@@ -24,7 +24,7 @@ const data = {
       rating: 5.0,
       reviews: 25,
       description:
-        'The Bold SHT T-Shirt is another classic design with a bold look.',
+        'The Bold T-Shirt is another classic design with a bold look!',
     },
     {
       _id: '3',
@@ -37,7 +37,7 @@ const data = {
       rating: 5.0,
       reviews: 25,
       description:
-        'The Flywheel SHT T-Shirt is a fun design with a unique pattern.',
+        'The Flywheel T-Shirt is a fun design with a unique pattern!',
     },
     {
       _id: '4',
@@ -49,7 +49,8 @@ const data = {
       quantityInStock: 50,
       rating: 5.0,
       reviews: 25,
-      description: 'The Scepter SHT T-Shirt is a splash of SHT on a t-shirt.',
+      description:
+        'The Scepter T-Shirt is a great t-shirt to impress the fans!',
     },
     {
       _id: '5',
@@ -61,7 +62,7 @@ const data = {
       quantityInStock: 50,
       rating: 5.0,
       reviews: 25,
-      description: 'The Splash SHT T-Shirt is a splash of SHT on a t-shirt.',
+      description: 'The Splash T-Shirt is a splash of SHT on a t-shirt!',
     },
     {
       _id: '6',
@@ -73,7 +74,7 @@ const data = {
       quantityInStock: 50,
       rating: 5.0,
       reviews: 25,
-      description: 'The Splash SHT T-Shirt is a splash of SHT on a t-shirt.',
+      description: 'The Shield T-Shirt is a strong shield of SHT!',
     },
     {
       _id: '7',
@@ -85,7 +86,8 @@ const data = {
       quantityInStock: 50,
       rating: 5.0,
       reviews: 25,
-      description: 'The Splash SHT T-Shirt is a splash of SHT on a t-shirt.',
+      description:
+        'The Bold T-Shirt is another classic design with a bold look!',
     },
     {
       _id: '8',
@@ -97,7 +99,8 @@ const data = {
       quantityInStock: 50,
       rating: 5.0,
       reviews: 25,
-      description: 'The Splash SHT T-Shirt is a splash of SHT on a t-shirt.',
+      description:
+        'The Herald T-Shirt is one of our first classic and legendary designs!',
     },
     {
       _id: '9',
@@ -109,7 +112,8 @@ const data = {
       quantityInStock: 50,
       rating: 5.0,
       reviews: 25,
-      description: 'The Splash SHT T-Shirt is a splash of SHT on a t-shirt.',
+      description:
+        'The Explosion T-Shirt is a great way to wear an explosion of SHT!',
     },
     {
       _id: '10',
@@ -121,7 +125,8 @@ const data = {
       quantityInStock: 50,
       rating: 5.0,
       reviews: 25,
-      description: 'The Splash SHT T-Shirt is a splash of SHT on a t-shirt.',
+      description:
+        'The Flywheel T-Shirt is a fun design with a unique pattern!',
     },
     {
       _id: '11',
@@ -133,7 +138,8 @@ const data = {
       quantityInStock: 50,
       rating: 5.0,
       reviews: 25,
-      description: 'The Splash SHT T-Shirt is a splash of SHT on a t-shirt.',
+      description:
+        'The Herald Rays T-Shirt is the second version of one of our popular classics!',
     },
     {
       _id: '12',
@@ -145,7 +151,8 @@ const data = {
       quantityInStock: 50,
       rating: 5.0,
       reviews: 25,
-      description: 'The Splash SHT T-Shirt is a splash of SHT on a t-shirt.',
+      description:
+        'The Bold T-Shirt is another classic design with a bold look!',
     },
     {
       _id: '13',
@@ -157,7 +164,7 @@ const data = {
       quantityInStock: 50,
       rating: 5.0,
       reviews: 25,
-      description: 'The Splash SHT T-Shirt is a splash of SHT on a t-shirt.',
+      description: 'The Spot T-Shirt has left a great spot of SHT!',
     },
     {
       _id: '14',
@@ -169,7 +176,7 @@ const data = {
       quantityInStock: 50,
       rating: 5.0,
       reviews: 25,
-      description: 'The Splash SHT T-Shirt is a splash of SHT on a t-shirt.',
+      description: 'The Sketch T-Shirt is a sketch of SHT greatness!',
     },
     {
       _id: '15',
@@ -181,7 +188,8 @@ const data = {
       quantityInStock: 50,
       rating: 5.0,
       reviews: 25,
-      description: 'The Splash SHT T-Shirt is a splash of SHT on a t-shirt.',
+      description:
+        'The Stamp T-Shirt is a great classic with the SHT stamp of approval!',
     },
   ],
 };
