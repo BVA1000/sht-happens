@@ -10,6 +10,7 @@ body {
 
 h1 {
   color: #ffffff;
+  font-size: 45px !important;
 }
 
 header {
@@ -83,4 +84,22 @@ footer {
 
 .img-thumbnail {
   height: 80px;
+}
+
+.small-container {
+  max-width: 600px;
+}
+
+.signIn {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #ffffff !important;
+  margin: 20px;
+  text-align: center;
+}
+
+.form {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 25px;
+  color: #ffffff !important;
+  margin: 20px;
 }
