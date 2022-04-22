@@ -1,7 +1,7 @@
 const data = {
   products: [
     {
-      _id: '1',
+      //_id: '1',
       name: 'Herald Red',
       slug: 'herald-t-shirt-red',
       category: 'T-Shirts',
@@ -14,7 +14,7 @@ const data = {
         'The Herald T-Shirt is one of our first classic and legendary designs!',
     },
     {
-      _id: '2',
+      //_id: '2',
       name: 'Bold Black',
       slug: 'bold-t-shirt-black',
       category: 'T-Shirts',
@@ -27,7 +27,7 @@ const data = {
         'The Bold T-Shirt is another classic design with a bold look!',
     },
     {
-      _id: '3',
+      //_id: '3',
       name: 'Flywheel White',
       slug: 'flywheel-t-shirt-white',
       category: 'T-Shirts',
@@ -40,7 +40,7 @@ const data = {
         'The Flywheel T-Shirt is a fun design with a unique pattern!',
     },
     {
-      _id: '4',
+      //_id: '4',
       name: 'Scepter Red',
       slug: 'scepter-t-shirt-red',
       category: 'T-Shirts',
@@ -53,7 +53,7 @@ const data = {
         'The Scepter T-Shirt is a great t-shirt to impress the fans!',
     },
     {
-      _id: '5',
+      //_id: '5',
       name: 'Splash Black',
       slug: 'splash-t-shirt-black',
       category: 'T-Shirts',
@@ -65,7 +65,7 @@ const data = {
       description: 'The Splash T-Shirt is a splash of SHT on a t-shirt!',
     },
     {
-      _id: '6',
+      //_id: '6',
       name: 'Shield White',
       slug: 'shield-t-shirt-white',
       category: 'T-Shirts',
@@ -77,7 +77,7 @@ const data = {
       description: 'The Shield T-Shirt is a strong shield of SHT!',
     },
     {
-      _id: '7',
+      //_id: '7',
       name: 'Bold Red',
       slug: 'bold-t-shirt-red',
       category: 'T-Shirts',
@@ -90,7 +90,7 @@ const data = {
         'The Bold T-Shirt is another classic design with a bold look!',
     },
     {
-      _id: '8',
+      //_id: '8',
       name: 'Herald Black',
       slug: 'herald-t-shirt-black',
       category: 'T-Shirts',
@@ -103,7 +103,7 @@ const data = {
         'The Herald T-Shirt is one of our first classic and legendary designs!',
     },
     {
-      _id: '9',
+      //_id: '9',
       name: 'Explosion White',
       slug: 'explosion-t-shirt-white',
       category: 'T-Shirts',
@@ -116,7 +116,7 @@ const data = {
         'The Explosion T-Shirt is a great way to wear an explosion of SHT!',
     },
     {
-      _id: '10',
+      //_id: '10',
       name: 'Flywheel Red',
       slug: 'flywheel-t-shirt-red',
       category: 'T-Shirts',
@@ -129,7 +129,7 @@ const data = {
         'The Flywheel T-Shirt is a fun design with a unique pattern!',
     },
     {
-      _id: '11',
+      //_id: '11',
       name: 'Herald Rays Black',
       slug: 'herald-rays-t-shirt-black',
       category: 'T-Shirts',
@@ -142,7 +142,7 @@ const data = {
         'The Herald Rays T-Shirt is the second version of one of our popular classics!',
     },
     {
-      _id: '12',
+      //_id: '12',
       name: 'Bold White',
       slug: 'bold-t-shirt-white',
       category: 'T-Shirts',
@@ -155,7 +155,7 @@ const data = {
         'The Bold T-Shirt is another classic design with a bold look!',
     },
     {
-      _id: '13',
+      //_id: '13',
       name: 'Spot Red',
       slug: 'spot-t-shirt-red',
       category: 'T-Shirts',
@@ -167,7 +167,7 @@ const data = {
       description: 'The Spot T-Shirt has left a great spot of SHT!',
     },
     {
-      _id: '14',
+      //_id: '14',
       name: 'Sketch Black',
       slug: 'sketch-t-shirt-black',
       category: 'T-Shirts',
@@ -179,7 +179,7 @@ const data = {
       description: 'The Sketch T-Shirt is a sketch of SHT greatness!',
     },
     {
-      _id: '15',
+      //_id: '15',
       name: 'Stamp White',
       slug: 'stamp-t-shirt-white',
       category: 'T-Shirts',
